@@ -1,0 +1,268 @@
+
+/* Main Containers */
+.outer-container {
+  height: 100%;
+  width: 100%;
+  background: #eee;
+  border-width: 4%;
+  border: solid #ccc;
+}
+.game-window {
+  height: 100%;
+  width: 74.7%;
+  background: white;
+  border-right-width: 2%;
+  border-right: solid #53f;
+  float: left;
+  position: relative;
+}
+
+.status-window {
+  height: 100%;
+  width: 25%;
+  background: #feb;
+  float: right;
+  position: relative;
+  z-index: 3;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.back {
+  height: 100%;
+  width: 100%;
+}
+
+/* Game Objects */
+#player {
+  top: 85%;
+  left: 10%;
+  height: 11%;
+  position: absolute;
+  display: inline-block;
+  z-index: 2;
+  transition: 0s;
+}
+
+.person {
+  top: 10px;
+  left: 10px;
+  height: 10%;
+  position: absolute;
+  display: inline-block;
+  z-index: 3;
+  transition: 0s;
+}
+
+.person img {
+  height: 100%;
+}
+
+.hills {
+  position: absolute;
+  z-index: 5;
+  height: 19%;
+}
+
+.hills img {
+  position: absolute;
+  height: 100%;
+}
+
+#hill1 {
+  left: 4%;
+  top: 10%;
+}
+
+#hill2 {
+  left: 80%;
+  top: 15%;
+}
+
+#hill3 {
+  left: 25%;
+  top: 30%;
+}
+
+#hill4 {
+  left: 60%;
+  top: 40%;
+}
+
+.snowball {
+  left: 10px;
+  top: 10px;
+  height: 5%;
+  z-index: 10;
+  background-color: transparent;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: transparent;
+  transition: 0s;
+  position: absolute;
+  display: inline-block;
+}
+
+.snowball img {
+  height: 100%;
+}
+
+#player img{
+  height: 100%;
+}
+
+.giant {
+  left: 10px;
+  top: 10px;
+  height: 25%;
+  z-index: 10;
+  background-color: transparent;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: transparent;
+  transition: 0s;
+  position: absolute;
+  display: inline-block;
+}
+
+.giant img {
+  height: 100%;
+}
+
+.pile {
+  top: 86%;
+  left: 0%;
+  height: 5%;
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+  transition: 0s;
+}
+
+.pile img {
+  height: 100%;
+}
+
+.warning {
+  color: red;
+  text-align: center;
+  font-size: large;
+  margin: auto;
+  background-color: lightgray;
+  border-width: 5%;
+  border: solid black;
+  width: 99%;
+  height: 7%;
+}
+
+.point {
+  top: 10px;
+  left: 10px;
+  height: 3%;
+  position: absolute;
+  display: inline-block;
+  z-index: 11;
+  transition: 0s;
+}
+
+.point img {
+  height: 100%;
+}
+
+#settings {
+  padding-top: 10%;
+  display: inline-block;
+  position: relative;
+}
+
+.setting {
+  z-index: 100;
+  height: 100%;
+  width: 100%;
+  background-color: pink;
+  border: 5px solid black;
+  position: relative;
+  padding-top: 5%;
+}
+
+#id1 {
+  padding-bottom: 30%;
+}
+
+.fwend {
+  font-style: bold;
+  font-size: x-large;
+  margin: auto;
+  width: 99%;
+  height: 99%;
+}
+
+.fwend img {
+  height: 20%;
+}
+
+.balz {
+  font-style: bold;
+  font-size: x-large;
+  margin: auto;
+  width: 99%;
+  height: 99%;
+}
+
+.balz img {
+  height: 30%;
+}
+
+.empty {
+  padding-top: 5%;
+}
+
+.ope {
+  padding-top: 1%;
+}
+
+.fon {
+  font-style: bold;
+  font-size: xx-large;
+}
+
+.win {
+  position: relative;
+  display: inline-block;
+  padding-top: 20%;
+  height: 100%;
+  width: 100%;
+  background-color: lightgrey;
+  color: blue;
+  border-style: solid;
+  border-width: 5%;
+  border-color: blue;
+  text-align: center;
+  font-size: xx-large;
+  font-style: italic;
+  font-style: bold;
+  z-index: 105;
+}
+
+.lose {
+  position: relative;
+  display: inline-block;
+  padding-top: 20%;
+  height: 100%;
+  width: 100%;
+  background-color: lightgrey;
+  color: red;
+  border-style: solid;
+  border-width: 5%;
+  border-color: red;
+  text-align: center;
+  font-size: xx-large;
+  font-style: italic;
+  font-style: bold;
+  z-index: 105;
+}
